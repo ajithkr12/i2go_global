@@ -87,19 +87,21 @@
 /* Fonts Start */
 /* ------------------------------------------------*/
 /* Funnel Display font */
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"); */
 /* Funnel Sans font */
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
 /* ------------------------------------------------*/
 /* Fonts End */
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
 /* Variables Start */
 /* ------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
 :root {
   --_size: 1.8rem;
-  --_font-default: "Funnel Sans", sans-serif;
-  --_font-accent: "Funnel Display", sans-serif;
+  --_font-default: "Inter", sans-serif;
+  --_font-accent: "Inter", sans-serif;
   --_radius-s: 1rem;
   --_radius-m: 1.6rem;
   --_radius-pt-m: 1.6rem;
@@ -156,7 +158,7 @@
   --base-opp--dark: #faf7f6;
   --base-opp-tint--dark: #ffffff;
   /* --accent--dark: #ddf160; */
-  --accent--dark: #ef9e26;
+  --accent--dark: #ffffff;
   --accent-rgb--dark: 221, 241, 96;
   --additional--dark: #9f8be7;
   --additional-rgb--dark: 159, 139, 231;
