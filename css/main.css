@@ -20113,9 +20113,9 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 
 .mxd-logo__circle {
-  width: 140px; /* match original SVG size */
-  height: 140px;
-  /* background-color: red;  */
+  width: 98px; /* match original SVG size */
+  height: 98px;
+  background-color: #ffffff;
   border-radius: 50%; /* makes it round */
   display: flex;
   align-items: center;
@@ -20123,12 +20123,13 @@ form textarea:required:valid {
   overflow: hidden; /* trims anything outside circle */
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
+  margin: 12px;
 
-  background-color: transparent;
+  /* background-color: transparent; */
   /* border: 1px solid #ffffff; */
 }
 
 .mxd-logo__image {
-  width: 138px; /* shrink PNG to fit */
-  height: 138px;
+  width: 90px; /* shrink PNG to fit */
+  height: 90px;
 }
